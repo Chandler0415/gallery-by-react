@@ -20,7 +20,7 @@ function getRangeRandom(low, high) {
  * 获取 0~30˚ 之前的任意正负值
  */
 function get30DegRandom() {
-	return (Math.random() > 0.5 ? '' : '-' + Math.ceil(Math.random() * 30));
+	return ((Math.random() > 0.5 ? '' : '-') + Math.ceil(Math.random() * 30));
 }
 
 // 利用自执行函数，将图片名信息转成图片URL路径信息
